@@ -38,6 +38,7 @@ body { background: var(--page); color: var(--ink); font-family: var(--sans); }
   background: var(--ink); color: #fff !important; font-size: 0.92rem;
 }
 .link-btn:hover { background: var(--accent); }
+.link-btn.is-pending { opacity: 0.45; pointer-events: none; cursor: default; }
 
 /* a container wider than bulma's widest: nine tiles across need the room */
 .container.is-max-wide { max-width: 1680px; margin: 0 auto; }
